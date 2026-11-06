@@ -146,7 +146,7 @@ export default function Explore() {
       className={`
         ${dmSans.className}
         w-full
-        bg-[#EAF3E7]
+        bg-[#F7F8F1]
         py-14
         sm:py-20
         xl:py-[90px]
