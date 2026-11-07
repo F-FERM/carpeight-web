@@ -17,7 +17,7 @@ const LINKS = [
   { label: "Our Story", href: "#story" },
   { label: "Experiences", href: "#experiences" },
   { label: "Discover", href: "#discover" },
-  { label: "Why Carpeight Oasis", href: "#why" },
+  { label: "Why Carpeight", href: "#why" },
 ];
 
 export default function Footer() {

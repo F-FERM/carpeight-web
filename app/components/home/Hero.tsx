@@ -21,7 +21,7 @@ const NAV_LINKS = [
   { label: "Our Story", href: "#story" },
   { label: "Experiences", href: "#experiences" },
   { label: "Discover", href: "#discover" },
-  { label: "Why Carpeight Oasis", href: "#why" },
+  { label: "Why Carpeight", href: "#why" },
 ];
 
 const PAD = "px-4 sm:px-8 lg:px-12 xl:px-20";
@@ -114,7 +114,7 @@ export default function Hero() {
           {/* Logo */}
           <Link
             href="/"
-            aria-label="Carpeight Oasis home"
+            aria-label="Carpeight home"
             className="
               relative
               block
@@ -130,7 +130,7 @@ export default function Hero() {
           >
             <Image
               src={logoImg}
-              alt="Carpeight Oasis"
+              alt="Carpeight"
               fill
               priority
               sizes="(min-width: 1280px) 278px, (min-width: 1024px) 234px, 200px"
