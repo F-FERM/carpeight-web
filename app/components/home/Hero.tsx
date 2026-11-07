@@ -61,7 +61,7 @@ export default function Hero() {
         flex-col
         overflow-hidden
         border-b-[3px]
-        border-[#00D57B]
+        border-[#032318]
         bg-[#06261c]
         text-white
       `}
