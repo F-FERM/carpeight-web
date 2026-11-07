@@ -63,7 +63,7 @@ export default function About() {
                 It’s not about{" "}
               </span>
               <span
-                className={`${dmSerif.className} italic text-[#0EA766]`}
+                className={`${dmSerif.className} italic text-[#161C1B]`}
                 style={{ fontWeight: 400, letterSpacing: "-0.045em" }}
               >
                 how far.
@@ -77,7 +77,7 @@ export default function About() {
                 It’s about{" "}
               </span>
               <span
-                className={`${dmSerif.className} italic text-[#0EA766]`}
+                className={`${dmSerif.className} italic text-[#161C1B]`}
                 style={{ fontWeight: 400, letterSpacing: "-0.045em" }}
               >
                 how you feel.

@@ -234,7 +234,7 @@ export default function WhyChooseUs() {
                     text-[#004530]
                     transition-colors
                     duration-300
-                    group-hover:bg-[#A4EA6D]
+                    group-hover:bg-[#00D57B]
                   "
                 >
                   <Icon size={17} strokeWidth={1.8} />

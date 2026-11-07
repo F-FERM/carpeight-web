@@ -61,7 +61,7 @@ export default function Hero() {
         flex-col
         overflow-hidden
         border-b-[3px]
-        border-[#A4EA6D]
+        border-[#00D57B]
         bg-[#06261c]
         text-white
       `}
@@ -145,7 +145,7 @@ export default function Hero() {
                 <li key={l.label}>
                   <Link
                     href={l.href}
-                    className="text-[14px] text-white transition-colors hover:text-[#A4EA6D]"
+                    className="text-[14px] text-white transition-colors hover:text-[#00D57B]"
                     style={{ fontWeight: 600, lineHeight: "100%" }}
                   >
                     {l.label}
@@ -169,7 +169,7 @@ export default function Hero() {
                 justify-center
                 gap-[10px]
                 rounded-[50px]
-                bg-[#A4EA6D]
+                bg-[#00D57B]
                 px-[25px]
                 py-[17px]
                 text-[16px]
@@ -308,7 +308,7 @@ export default function Hero() {
               block
               text-[clamp(44px,15vw,72px)]
               italic
-              text-[#A4EA6D]
+              text-white
               sm:text-[clamp(64px,10vw,135px)]
               xl:text-[135px]
             `}
@@ -356,7 +356,7 @@ export default function Hero() {
               justify-center
               gap-[10px]
               rounded-[50px]
-              bg-[#A4EA6D]
+              bg-[#00D57B]
               px-[25px]
               py-[17px]
               text-[16px]
@@ -399,8 +399,8 @@ export default function Hero() {
                 backdrop-blur-md
                 transition-colors
                 duration-300
-                group-hover:bg-[#A4EA6D75]
-                group-focus-visible:bg-[#A4EA6D75]
+                group-hover:bg-[#00D57B75]
+                group-focus-visible:bg-[#00D57B75]
                 sm:h-[60px]
                 sm:w-[60px]
               "

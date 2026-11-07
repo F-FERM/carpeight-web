@@ -98,7 +98,7 @@ export default function Marquee() {
       className={`
         ${dmSans.className}
         relative w-full overflow-hidden
-        bg-[#A4EA6D] py-[17px] text-[#004530]
+        bg-[#004530] py-[17px] text-white
       `}
     >
       {loading ? (

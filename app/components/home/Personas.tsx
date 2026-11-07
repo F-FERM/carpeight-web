@@ -70,7 +70,7 @@ export default function Personas() {
                 Different journeys.
               </span>
               <span
-                className={`${dmSerif.className} block whitespace-nowrap italic text-[#004530]`}
+                className={`${dmSerif.className} block whitespace-nowrap italic text-[#161C1B]`}
                 style={{
                   fontWeight: 400,
                   lineHeight: "0.9685",
@@ -114,7 +114,7 @@ export default function Personas() {
                 transition-colors
                 duration-300
                 ease-out
-                hover:bg-[#A4EA6D]
+                hover:bg-[#00D57B]
                 sm:p-8
                 xl:p-[42px]
               "

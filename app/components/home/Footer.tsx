@@ -119,7 +119,7 @@ export default function Footer() {
               justify-center
               gap-2
               rounded-full
-              bg-[#A4EA6D]
+              bg-[#00D57B]
               px-[21px]
               py-[12px]
               text-[12px]
@@ -199,7 +199,7 @@ export default function Footer() {
                 text-white
                 transition-colors
                 duration-300
-                hover:text-[#A4EA6D]
+                hover:text-[#00D57B]
               `}
               style={{
                 fontWeight: 600,
@@ -238,7 +238,7 @@ export default function Footer() {
                 text-white
                 transition-colors
                 duration-300
-                hover:text-[#A4EA6D]
+                hover:text-[#00D57B]
               `}
               style={{
                 fontWeight: 600,
@@ -367,7 +367,7 @@ export default function Footer() {
                         text-white
                         transition-colors
                         duration-300
-                        hover:text-[#A4EA6D]
+                        hover:text-[#00D57B]
                         sm:text-[12px]
                       "
                       style={{
@@ -393,7 +393,7 @@ export default function Footer() {
                       text-white
                       transition-colors
                       duration-300
-                      hover:text-[#A4EA6D]
+                      hover:text-[#00D57B]
                       sm:text-[12px]
                     "
                     style={{

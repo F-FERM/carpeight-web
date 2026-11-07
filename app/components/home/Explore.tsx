@@ -94,7 +94,7 @@ function ArrowCircle({ href, label }: { href: string; label: string }) {
         absolute inset-0 z-20
         focus:outline-none
         focus-visible:ring-2
-        focus-visible:ring-[#A4EA6D]
+        focus-visible:ring-[#00D57B]
         focus-visible:ring-inset
         rounded-[18px]
       "
@@ -114,7 +114,7 @@ function ArrowCircle({ href, label }: { href: string; label: string }) {
           text-white
           transition-colors
           duration-300
-          group-hover:bg-[#A4EA6D75]
+          group-hover:bg-[#00D57B75]
         "
       >
         <span
@@ -199,7 +199,7 @@ export default function Explore() {
               </span>
 
               <span
-                className={`${dmSerif.className} block italic text-[#0EA766]`}
+                className={`${dmSerif.className} block italic text-[#161C1B]`}
                 style={{
                   fontWeight: 400,
                   lineHeight: "0.9685",
@@ -312,7 +312,7 @@ export default function Explore() {
                   }}
                 >
                   <span
-                    className="text-[1.2em] text-[#A4EA6D]"
+                    className="text-[1.2em] text-[#00D57B]"
                     style={{ fontWeight: 400 }}
                   >
                     {item.description}
