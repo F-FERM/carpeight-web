@@ -66,7 +66,7 @@ export default function Difference() {
                 letterSpacing: "2.16px",
               }}
             >
-              04 / The Green Oasis difference
+              04 / The Carpeight Oasis difference
             </p>
 
             <h2 className="text-[clamp(40px,11vw,80px)] lg:text-[clamp(56px,5.6vw,80px)]">
