@@ -227,7 +227,7 @@ export default function Explore() {
               </span>
 
               <span
-                className={`${dmSerif.className} block italic text-[#0EA766]`}
+                className={`${dmSerif.className} block italic text-[#161C1B]`}
                 style={{
                   fontWeight: 400,
                   lineHeight: "0.9685",

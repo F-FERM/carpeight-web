@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@digicroz/react-floating-whatsapp':
+        specifier: ^1.0.2
+        version: 1.0.2(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -124,6 +127,13 @@ packages:
   '@babel/types@7.29.11':
     resolution: {integrity: sha512-WCsemW40Cpc6gouC1SrY6PBaZ+oLRlEVY9XBvZBI7il/HyUrb2nJ505wE1MHEFyDZNnrWDEuy4jL50WVHfTTSQ==}
     engines: {node: '>=6.9.0'}
+
+  '@digicroz/react-floating-whatsapp@1.0.2':
+    resolution: {integrity: sha512-1YIq/2VmB7y9/OSBjXYXUVG1+98ujyY3RUUsizNulhMv66shJOrZw445Cf2HnxK9555aatSC2AsBXWqCfhYskQ==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
 
   '@emnapi/runtime@1.11.3':
     resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
@@ -2107,6 +2117,11 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.29.13
       '@babel/helper-validator-identifier': 7.29.7
+
+  '@digicroz/react-floating-whatsapp@1.0.2(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
+    dependencies:
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
 
   '@emnapi/runtime@1.11.3':
     dependencies:

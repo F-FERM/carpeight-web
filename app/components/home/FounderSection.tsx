@@ -51,7 +51,7 @@ const SLIDES = [
       "Our commitment is simple: to make travel easier, connections stronger, and every destination worth remembering.",
     ],
     name: "Mohammed Nafih VP",
-    designation: "Founding Chairman",
+    designation: "CEO",
     image: "/images/founder-nafih.png",
     imageAlt: "Mohammed Nafih VP",
   },

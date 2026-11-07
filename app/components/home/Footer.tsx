@@ -291,7 +291,7 @@ export default function Footer() {
                 sm:text-[13px]
               "
             >
-              address : HiLITE City, HiLITE Business Park, 1st floor, Tower 2,
+              Address : HiLITE City, HiLITE Business Park, 1st floor, Tower 2,
               Kozhikode, Keralam 673014
             </address>
           </div>

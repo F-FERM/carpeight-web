@@ -60,13 +60,13 @@ export default function About() {
                 className={`${syne.className} text-[#161C1B]`}
                 style={{ fontWeight: 700, letterSpacing: "-0.07em" }}
               >
-                It’s not about{" "}
+                Travel is not just {" "}
               </span>
               <span
                 className={`${dmSerif.className} italic text-[#161C1B]`}
                 style={{ fontWeight: 400, letterSpacing: "-0.045em" }}
               >
-                how far.
+                a journey.
               </span>
             </span>
             <span className="block whitespace-nowrap">
@@ -74,13 +74,13 @@ export default function About() {
                 className={`${syne.className} text-[#161C1B]`}
                 style={{ fontWeight: 700, letterSpacing: "-0.07em" }}
               >
-                It’s about{" "}
+                It’s an {" "}
               </span>
               <span
                 className={`${dmSerif.className} italic text-[#161C1B]`}
                 style={{ fontWeight: 400, letterSpacing: "-0.045em" }}
               >
-                how you feel.
+                experience
               </span>
             </span>
           </h2>
