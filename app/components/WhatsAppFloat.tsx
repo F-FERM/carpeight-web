@@ -1,7 +1,18 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import { FloatingWhatsApp } from "@digicroz/react-floating-whatsapp";
+
+const FloatingWhatsApp = dynamic(
+  () =>
+    import("@digicroz/react-floating-whatsapp").then(
+      (mod) => mod.FloatingWhatsApp,
+    ),
+  {
+    ssr: false,
+    loading: () => null,
+  },
+);
 
 export default function WhatsAppFloat() {
   const [isVisible, setIsVisible] = useState(false);
@@ -24,26 +35,12 @@ export default function WhatsAppFloat() {
 
   return (
     <>
-      {/* WhatsApp Floating Widget */}
-
       <div
-        className={`
-          carpeight-whatsapp-wrapper
-          fixed
-          bottom-6
-          right-5
-          z-[9999]
-          sm:bottom-8
-          sm:right-8
-          transition-all
-          duration-500
-          ease-out
-          ${
-            isVisible
-              ? "translate-y-0 opacity-100"
-              : "pointer-events-none translate-y-8 opacity-0"
-          }
-        `}
+        className={`carpeight-whatsapp-wrapper fixed bottom-6 right-5 z-[9999] sm:bottom-8 sm:right-8 transition-all duration-500 ease-out ${
+          isVisible
+            ? "translate-y-0 opacity-100"
+            : "pointer-events-none translate-y-8 opacity-0"
+        }`}
         aria-hidden={!isVisible}
         style={{
           visibility: isVisible ? "visible" : "hidden",
@@ -76,8 +73,6 @@ export default function WhatsAppFloat() {
           chatboxHeight={380}
         />
       </div>
-
-      {/* Sparkle animation */}
 
       <style jsx global>{`
         .carpeight-whatsapp-wrapper .carpeight-whatsapp-widget {
